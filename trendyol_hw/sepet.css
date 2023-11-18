@@ -1,0 +1,292 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    /* color family eklenilecek */
+    font-family:Robotu;
+}
+
+a{
+    text-decoration: none;
+}
+.container{
+    
+    width: 1200px;
+    margin:0 auto
+}
+
+
+
+
+.nav-item{
+
+    justify-content: center;
+    margin-top:2px;
+    
+
+}
+.header-item{
+    width: 100%;
+    padding: 5px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-items{
+    width: 1200px;
+    height: 15px;
+    column-gap: 20px;
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.header-items a{
+    font-size: 15px;
+    margin-right: 15px;
+    color:#989797 ;
+    text-decoration: none;
+    
+}
+
+.header-logo{
+    width: 100%;
+    height: 100%;
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+.logo{
+    margin-right: 20px;
+    width: 210px;
+    justify-content:start;
+}
+
+
+.main-navbar {
+    display: flex;
+    width: 1200px;
+    margin: 0 auto;
+    
+
+}
+.search-box {
+    display: flex;
+    border: 2px solid rgba(220, 220, 220, 0.495);
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.search-box input {
+    padding: 10px;
+    border: none;
+    width: 600px;
+    outline: none;
+    height: 100%;
+    background-color: rgba(220, 220, 220, 0.495);
+
+}
+
+.search-box i{
+    color: orange;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    background-color: rgba(220, 220, 220, 0.495);
+    
+}
+.account-operations{
+    align-items: center;
+    justify-content: space-evenly;
+    display: flex;
+    width: auto;
+    text-decoration: none;
+    margin-top: 10px;
+    
+}
+
+.account-operations a{
+   text-decoration: none;
+   color: black;
+}
+.account-operations i :hover{
+    color: orange;
+
+}
+   
+
+
+.user{
+    margin-left: 30px;
+}
+
+.user a:hover{
+ color: orange;
+ 
+}
+
+.user i:hover{
+    color: orange;
+}
+
+.menu {
+    display: flex;
+    height: 35px;
+    padding-bottom: px;
+    column-gap: 25px;
+    justify-content: center;
+    border-bottom: 1px var solid;
+    color: black;
+    margin-top: 25px;
+    border-bottom: 1px solid rgb(218, 216, 216);
+}
+.menu a{
+    color: black;
+    font-size: large;
+    font-weight: 500;
+    text-decoration: none;
+    font-style: bold;
+
+}
+
+
+
+.menu a:hover {
+    
+    border-bottom: 2px solid;
+    color: orange;
+}
+
+.menu-banner {
+    display: inline;
+    color: white;
+    font-size: 10px;
+    background-color: crimson;
+    border-radius: 10px;
+    padding: 2px 4px;
+}
+.pb-container{
+    width: 1200px;
+    height: 2237px ;
+}
+.sepet-wrapper{
+    width: 1200px;
+    height: 2237px
+}
+.sepet-wrapper-header{
+    width: 928px;
+    height: 30px
+}
+.sepet-wrapper-header p{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 25px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+
+}
+
+.sepet-info-message{
+    width: 928px;
+    height: 52px
+}
+.sepet-group{
+    width: 928px;
+    height: 226px
+    background-color:rgb(235,255,244);
+    border: 1px solid rgba(128, 128, 128, 0.262);
+
+}
+.satıcı_adı{
+    width: 926px;
+    height: 43px
+}
+.pb-basket-item-wrapper-v2{
+    width: 926px;
+    height: 153px
+
+}
+.pb-basket-item{
+    width: 878px;
+    height:105px
+
+}
+.satıcı_adı {
+    width: 926px;
+    height: 43px
+}
+.satıcı_adı span {
+   background-color:rgb(8,180,73);
+   border: 2px solid rgb(8,180,73);
+   border-radius: 5px;
+   color: white;
+   
+
+}
+.sepet-info-message{
+    background-color: rgb(255,255,241);
+    border: 1px solid rgba(128, 128, 128, 0.262);
+    border-radius: 2px;
+    
+    text-align:left;
+    height: 40px;
+    margin-top: 25px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.satıcı_adı{
+    background-color: rgb(250,250,250,);
+    border: 1px solid rgba(128, 128, 128, 0.262);
+    margin-top: 50px;
+    
+
+}
+.satıcı_adı p{
+   text-align:start;
+   margin-top: 10px;
+    
+    
+
+}
+.kargo{
+    background-color:rgb(235,255,244);
+    border: 1px solid rgba(128, 128, 128, 0.262);
+    text-align: center;
+
+}
+
+.pb-image1{
+    width: 68px;
+    height: 103px;
+    background-color:rgb(235,255,244);
+    border: 1px solid rgba(128, 128, 128, 0.262);
+
+}
+
+.basket-app-container .p-card-chldrn-cntnr {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    position: relative;
+    box-shadow: none;
+    transition: box-shadow 0.2s linear;
+    cursor: pointer;
+    border: 1px solid #eaeaea;
+    background-color: #ffffff;
+    border-radius: 6px;
+    -webkit-font-smoothing: antialiased;}
+  
+ .sticky{
+    width: 270px;
+    height: 397px
+ }   
+ .pb-summary{
+    width: 250px;
+    height: 397px
+ }
+ .pb-summary-approve{
+    width: 250px;
+    height: 48px
+ }
+
+ 
