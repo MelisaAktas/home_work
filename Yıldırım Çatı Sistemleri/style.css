@@ -9,7 +9,7 @@
 
 
 body {      
-    background-color: #EEEEEE;  
+  background-color: #EEEEEE;  
     
     
 }
@@ -69,12 +69,12 @@ header {
     color: #c0392b; /* Hover sırasında koyu kırmızı renk */
 }
 
-footer {
-    background-color: #e74c3c; /* Kırmızı arkaplan */
-    color: #fff; /* Beyaz metin rengi */
+/* footer {
+    background-color: #e74c3c;
+    color: #fff;
     padding: 10px;
     text-align: center;
-}
+} */
 
 /* SLİDER */
 
@@ -94,8 +94,8 @@ footer {
 }
 
 .slider img {
-  width: 1720px;
-  height: 380px;
+  width: 1900px;
+  height: 401px;
   display: block;
   margin: 0 auto;
   
@@ -150,7 +150,7 @@ button {
   width: 300px;
   height: 300px;
   perspective: 1000px;
-  margin-right: 20px;
+  margin-right: 80px; /* kartların arasındaki mesafe*/
   margin-top: 50px;
 }
 
@@ -209,3 +209,31 @@ button {
   height: 35px;
    
 }
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 20%; /*kart genişliği */
+  display: flex;
+  justify-content: center;/* Kartları eşit aralıklarla ayır */
+  padding: 0px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+  padding: 20px 10px;
+}
+.service-container{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap; /* Kartların sığmadığı durumda alt satıra geçmelerini sağlar */
+  margin-bottom: px;
+}
+
+
